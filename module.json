@@ -1,0 +1,12 @@
+{
+  "id": "pcl.ui.launch",
+  "name": "PCL 启动页",
+  "version": "0.1.0",
+  "assembly": "PCL.UI.Launch.dll",
+  "entry": "PCL.UI.Launch.Module",
+  "dependencies": [ "pcl.core", "pcl.theme", "pcl.launch.microsoft", "pcl.ui.controls" ],
+  "loadPriority": 100,
+  "author": "150311-ma",
+  "description": "启动、登录、版本选择页面。与 pcl.launch.microsoft 的关系是通过 IMicrosoftAuthService 交互，而不是直接调登录函数。",
+  "tags": [ "ui" ]
+}
